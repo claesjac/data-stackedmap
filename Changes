@@ -1,0 +1,17 @@
+Revision history for Perl extension Data::StackedMap.
+
+0.04  Fri Aug 31 2007
+    - Call CORE::exists instead of exists
+    
+0.03  Wed May 15 2007
+    - Added test for top_keys
+    - Added put method alias (does same as set)
+    
+0.02  Sat May 12 2007
+    - added keys and top_keys methods
+    - added start hash option to constructor
+    
+0.01  Fri May 11 2007
+	- original version; created by h2xs 1.23 with options
+		-X -b 5.5.3 -n Data::StackedMap
+
